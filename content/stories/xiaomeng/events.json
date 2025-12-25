@@ -1,0 +1,72 @@
+[
+  {
+    "id": "xiaomeng_scene_001",
+    "type": "scene",
+    "text": "厨房灯亮着，锅里冒着热气。有人聊天，有人开玩笑，她一边切菜一边把节奏稳稳接住，像把'聚会'变成了'家'。",
+    "choices": []
+  },
+  {
+    "id": "xiaomeng_scene_002",
+    "type": "scene",
+    "text": "工作里她认真负责、带着锋利的效率；生活里，她对认可的朋友很真。她愿意提供场地，也愿意把买菜做饭洗碗这些'麻烦事'默默做完。",
+    "choices": []
+  },
+  {
+    "id": "xiaomeng_scene_003",
+    "type": "scene",
+    "text": "看着她在厨房忙碌，你选择...",
+    "choices": [
+      {
+        "text": "主动接过她手里的洗菜工作",
+        "next": "xiaomeng_scene_004"
+      },
+      {
+        "text": "帮她把调料和餐具摆好",
+        "next": "xiaomeng_scene_004"
+      },
+      {
+        "text": "坐在厨房陪她聊天不让她孤单",
+        "next": "xiaomeng_scene_004"
+      }
+    ]
+  },
+  {
+    "id": "xiaomeng_scene_004",
+    "type": "scene",
+    "text": "她总是把最好的留给朋友：最嫩的肉、最新鲜的菜，自己却常常随便对付一口。她的执行力很强，说要做什么就一定会做到。",
+    "choices": []
+  },
+  {
+    "id": "xiaomeng_scene_005",
+    "type": "scene",
+    "text": "饭后收拾时，你想对她说...",
+    "choices": [
+      {
+        "text": "下次我来做饭，你来当客人",
+        "next": "xiaomeng_scene_006"
+      },
+      {
+        "text": "你做的菜真的很用心很好吃",
+        "next": "xiaomeng_scene_006"
+      },
+      {
+        "text": "记得也要好好照顾自己",
+        "next": "xiaomeng_scene_006"
+      }
+    ]
+  },
+  {
+    "id": "xiaomeng_scene_006",
+    "type": "scene",
+    "text": "新的一年，希望她的付出被看见、被回馈，也希望她学会把一部分热气留给自己。愿她的强大不必一直用来撑场面。",
+    "choices": []
+  },
+  {
+    "id": "xiaomeng_ending",
+    "type": "ending",
+    "character_id": "xiaomeng",
+    "text": "在这段陪伴的时光里，你感受到了她的真诚与温暖。",
+    "ending_note": "纯真的心是最强大的治愈力量",
+    "next": "hub"
+  }
+]

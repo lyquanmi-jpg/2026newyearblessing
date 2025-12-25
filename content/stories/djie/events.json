@@ -1,0 +1,72 @@
+[
+  {
+    "id": "djie_scene_001",
+    "type": "scene",
+    "text": "她总把自己收拾得很得体，像对生活有一种不动声色的礼貌。偶尔端出一份点心，香气和认真一起落在桌上。",
+    "choices": []
+  },
+  {
+    "id": "djie_scene_002",
+    "type": "scene",
+    "text": "她不欠人情，也不随便消耗别人；但一旦认定是朋友，就有分寸、有温度。她不擅长'说'，却很擅长'做'。",
+    "choices": []
+  },
+  {
+    "id": "djie_scene_003",
+    "type": "scene",
+    "text": "看着她端出精心制作的点心，你想要...",
+    "choices": [
+      {
+        "text": "认真品尝并夸赞她的手艺",
+        "next": "djie_scene_004"
+      },
+      {
+        "text": "主动帮她收拾制作时的工具",
+        "next": "djie_scene_004"
+      },
+      {
+        "text": "询问她制作的小技巧和心得",
+        "next": "djie_scene_004"
+      }
+    ]
+  },
+  {
+    "id": "djie_scene_004",
+    "type": "scene",
+    "text": "她在自己擅长的领域里发光，有自己的专业和坚持。她保持着礼貌的边界，但这种边界让人感到安全而不是疏离。",
+    "choices": []
+  },
+  {
+    "id": "djie_scene_005",
+    "type": "scene",
+    "text": "临别时，你想对她说...",
+    "choices": [
+      {
+        "text": "你做的点心真的很用心很好吃",
+        "next": "djie_scene_006"
+      },
+      {
+        "text": "你在专业领域的坚持很让人敬佩",
+        "next": "djie_scene_006"
+      },
+      {
+        "text": "和你相处总是很舒服很安心",
+        "next": "djie_scene_006"
+      }
+    ]
+  },
+  {
+    "id": "djie_scene_006",
+    "type": "scene",
+    "text": "新的一年，愿她在擅长的领域继续发光，也愿她对自己的肯定更坚定。她不用变成谁，她只需要更相信自己。",
+    "choices": []
+  },
+  {
+    "id": "djie_ending",
+    "type": "ending",
+    "character_id": "djie",
+    "text": "在这段陪伴的时光里，你感受到了她的专业与温度。",
+    "ending_note": "智慧与勇气是最美的装饰",
+    "next": "hub"
+  }
+]

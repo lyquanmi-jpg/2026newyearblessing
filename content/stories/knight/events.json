@@ -1,0 +1,155 @@
+[
+  {
+    "id": "knight_start",
+    "type": "scene",
+    "text": "骑士亚瑟接到了国王的紧急召唤。王国边境出现了一条恶龙，威胁着村民的安全。但同时，他的恋人伊莎贝拉病重，需要他的陪伴。亚瑟面临着荣誉与爱情的艰难选择。",
+    "choices": [
+      {
+        "text": "立即前往边境讨伐恶龙",
+        "next": "knight_dragon_quest"
+      },
+      {
+        "text": "先照顾伊莎贝拉，稍后再处理恶龙",
+        "next": "knight_stay_with_love"
+      }
+    ]
+  },
+  {
+    "id": "knight_dragon_quest",
+    "type": "scene",
+    "text": "亚瑟选择了荣誉，他骑马赶往边境。在路上，他遇到了一群逃难的村民，他们告诉亚瑟恶龙其实是在保护自己的幼崽，因为有人偷走了龙蛋。",
+    "choices": [
+      {
+        "text": "继续按照命令讨伐恶龙",
+        "next": "knight_follow_orders"
+      },
+      {
+        "text": "调查龙蛋被盗的真相",
+        "next": "knight_investigate_truth"
+      }
+    ]
+  },
+  {
+    "id": "knight_stay_with_love",
+    "type": "scene",
+    "text": "亚瑟选择留下照顾伊莎贝拉。在她的病床前，伊莎贝拉虚弱地告诉亚瑟，她听说恶龙的事情，劝他去履行骑士的职责。她说真正的爱情应该支持对方做正确的事。",
+    "choices": [
+      {
+        "text": "听从伊莎贝拉的建议，前去讨伐恶龙",
+        "next": "knight_delayed_quest"
+      },
+      {
+        "text": "坚持留下，直到她康复",
+        "next": "knight_devoted_love"
+      }
+    ]
+  },
+  {
+    "id": "knight_follow_orders",
+    "type": "scene",
+    "text": "亚瑟决定遵循骑士的誓言，继续执行讨伐任务。他来到恶龙的巢穴，发现恶龙正在哀鸣，它的幼崽确实不见了。恶龙看到亚瑟，愤怒地准备攻击。",
+    "choices": [
+      {
+        "text": "与恶龙战斗到底",
+        "next": "knight_dragon_battle"
+      },
+      {
+        "text": "尝试与恶龙沟通",
+        "next": "knight_dragon_communication"
+      }
+    ]
+  },
+  {
+    "id": "knight_investigate_truth",
+    "type": "scene",
+    "text": "亚瑟决定调查真相。他发现是一个贪婪的商人偷走了龙蛋，想要卖给收藏家。亚瑟找到了商人的藏身处，龙蛋就在那里。",
+    "choices": [
+      {
+        "text": "直接夺回龙蛋",
+        "next": "knight_retrieve_egg"
+      },
+      {
+        "text": "先与商人谈判",
+        "next": "knight_negotiate"
+      }
+    ]
+  },
+  {
+    "id": "knight_delayed_quest",
+    "type": "scene",
+    "text": "亚瑟最终决定前往边境，但因为延误了时间，恶龙已经攻击了几个村庄。村民们对亚瑟的迟到表示不满，但他仍然决心完成任务。",
+    "choices": [
+      {
+        "text": "向村民道歉并立即行动",
+        "next": "knight_apologize_act"
+      },
+      {
+        "text": "解释自己的处境，寻求理解",
+        "next": "knight_explain_situation"
+      }
+    ]
+  },
+  {
+    "id": "knight_devoted_love",
+    "type": "scene",
+    "text": "亚瑟选择留在伊莎贝拉身边。几天后，传来消息说另一位骑士已经解决了恶龙问题，但方法很残暴。伊莎贝拉康复后，对亚瑟的选择表示了复杂的情感。",
+    "choices": [
+      {
+        "text": "为自己的选择感到后悔",
+        "next": "knight_regret_choice"
+      },
+      {
+        "text": "坚信爱情比荣誉更重要",
+        "next": "knight_love_over_honor"
+      }
+    ]
+  },
+  {
+    "id": "knight_dragon_battle",
+    "type": "ending",
+    "text": "亚瑟与恶龙展开了激烈的战斗。最终他战胜了恶龙，但在战斗中受了重伤。村民们称赞他的勇气，但亚瑟心中却充满了对恶龙失去幼崽的同情。",
+    "ending_note": "有时胜利的代价是内心的痛苦"
+  },
+  {
+    "id": "knight_dragon_communication",
+    "type": "ending",
+    "text": "亚瑟放下武器，尝试与恶龙沟通。他的真诚感动了恶龙，恶龙告诉了他真相。亚瑟帮助恶龙找回了幼崽，从此人龙和谐共处。",
+    "ending_note": "理解与同情比武力更强大"
+  },
+  {
+    "id": "knight_retrieve_egg",
+    "type": "ending",
+    "text": "亚瑟果断夺回龙蛋，将其归还给恶龙。恶龙感激不尽，从此成为王国的守护者。亚瑟因为解决问题的智慧而受到赞扬。",
+    "ending_note": "正义的行动能化敌为友"
+  },
+  {
+    "id": "knight_negotiate",
+    "type": "ending",
+    "text": "亚瑟与商人谈判，最终说服他归还龙蛋。商人被亚瑟的正义感动，决定改过自新。这次事件让亚瑟学会了用智慧而非武力解决问题。",
+    "ending_note": "真正的骑士精神是感化他人的心"
+  },
+  {
+    "id": "knight_apologize_act",
+    "type": "ending",
+    "text": "亚瑟向村民真诚道歉，并立即投入行动。他的诚意和后续的英勇表现赢得了村民的原谅和尊敬。他学会了承担责任的重要性。",
+    "ending_note": "真诚的道歉是重建信任的开始"
+  },
+  {
+    "id": "knight_explain_situation",
+    "type": "ending",
+    "text": "亚瑟解释了自己的处境，村民们理解了他的难处。他们一起想出了更好的解决方案，既保护了村庄，也照顾了亚瑟的个人情况。",
+    "ending_note": "坦诚沟通能找到双赢的解决方案"
+  },
+  {
+    "id": "knight_regret_choice",
+    "type": "ending",
+    "text": "亚瑟为自己的选择感到后悔，他意识到作为骑士的责任不容推卸。伊莎贝拉看出了他的痛苦，决定支持他重新找回骑士的荣誉。",
+    "ending_note": "后悔是成长的开始"
+  },
+  {
+    "id": "knight_love_over_honor",
+    "type": "ending",
+    "text": "亚瑟坚信自己的选择是正确的。他和伊莎贝拉一起离开了王国，在远方建立了新的生活。他们用爱情证明了还有比荣誉更珍贵的东西。",
+    "ending_note": "真爱值得放弃一切去守护"
+  }
+]

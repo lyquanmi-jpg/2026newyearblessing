@@ -1,0 +1,72 @@
+[
+  {
+    "id": "wenting_scene_001",
+    "type": "scene",
+    "text": "她不太主动讲过去的事。\n\n不是刻意回避，只是把那些经历放在了生活之后。\n有些路走过了，就被她安静地收好，放在心里更深的地方。",
+    "choices": []
+  },
+  {
+    "id": "wenting_scene_002",
+    "type": "scene",
+    "text": "你走近她的时候，她在聊最近的生活。\n\n工作、朋友、一些琐碎却真实的小事。\n她说得不多，但句句都有回应，像是把每一件事都认真放在心上。",
+    "choices": []
+  },
+  {
+    "id": "wenting_scene_003",
+    "type": "scene",
+    "text": "听着她的语气，你想用怎样的方式靠近她——",
+    "choices": [
+      {
+        "text": "顺着她的话，陪她聊这些生活里的小事",
+        "next": "wenting_scene_004"
+      },
+      {
+        "text": "认真听她说话，留意她话里的分寸",
+        "next": "wenting_scene_004"
+      },
+      {
+        "text": "察觉到她没说的部分，选择不追问",
+        "next": "wenting_scene_004"
+      }
+    ]
+  },
+  {
+    "id": "wenting_scene_004",
+    "type": "scene",
+    "text": "你慢慢发现，她不是话最多的那种人。\n\n但事情交到她手里，总是有回应，也有结果。\n她把关系放在心上，却从不让人觉得有负担——那是一种很稳的可靠。",
+    "choices": []
+  },
+  {
+    "id": "wenting_scene_005",
+    "type": "scene",
+    "text": "聊天快结束时，你更想把哪一种心意留在这里——",
+    "choices": [
+      {
+        "text": "继续陪她，把时间留在当下",
+        "next": "wenting_scene_006"
+      },
+      {
+        "text": "把这份难得的安心放在心上，好好珍惜",
+        "next": "wenting_scene_006"
+      },
+      {
+        "text": "不说什么，只是默默记住这份感觉",
+        "next": "wenting_scene_006"
+      }
+    ]
+  },
+  {
+    "id": "wenting_scene_006",
+    "type": "scene",
+    "text": "后来你意识到，她依然热爱生活，也依然真诚对待朋友。\n\n那些经历没有消失，只是没有把她困住。\n她走得更稳，也更自信——像一个可以被托付的后盾，安静、坚定、让人安心。",
+    "choices": []
+  },
+  {
+    "id": "wenting_ending",
+    "type": "ending",
+    "character_id": "wenting",
+    "text": "在这段陪伴里，你感受到的不是被治愈，而是一种很确定的安心。",
+    "ending_note": "有些安心，是慢慢读出来的。",
+    "next": "hub"
+  }
+]

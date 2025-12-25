@@ -1,0 +1,72 @@
+[
+  {
+    "id": "jojo_scene_001",
+    "type": "scene",
+    "text": "她出现的时候，场子会柔下来：会照顾每个人的感受，也会把尴尬轻轻化开，像把'聚会'变成更安全的空间。",
+    "choices": []
+  },
+  {
+    "id": "jojo_scene_002",
+    "type": "scene",
+    "text": "她对朋友很真，愿意付出，也愿意倾听。她不急着解释过往，大家也不急着追问——只要知道，她一直在认真生活。",
+    "choices": []
+  },
+  {
+    "id": "jojo_scene_003",
+    "type": "scene",
+    "text": "看着她细心照顾每个人的感受，你想要...",
+    "choices": [
+      {
+        "text": "主动帮她分担一些照顾的工作",
+        "next": "jojo_scene_004"
+      },
+      {
+        "text": "也学着她的方式关心其他人",
+        "next": "jojo_scene_004"
+      },
+      {
+        "text": "提醒她也要照顾好自己",
+        "next": "jojo_scene_004"
+      }
+    ]
+  },
+  {
+    "id": "jojo_scene_004",
+    "type": "scene",
+    "text": "她很会倾听，从不过问别人不愿意说的事情。她用自己的真心换来了朋友们的信任，也让每个人都感到被接纳。",
+    "choices": []
+  },
+  {
+    "id": "jojo_scene_005",
+    "type": "scene",
+    "text": "聚会结束时，你想对她说...",
+    "choices": [
+      {
+        "text": "谢谢你总是让大家感到安全",
+        "next": "jojo_scene_006"
+      },
+      {
+        "text": "你的真心大家都能感受到",
+        "next": "jojo_scene_006"
+      },
+      {
+        "text": "希望你也能被同样温柔地对待",
+        "next": "jojo_scene_006"
+      }
+    ]
+  },
+  {
+    "id": "jojo_scene_006",
+    "type": "scene",
+    "text": "新的一年，愿她遇到更匹配的理解与珍惜。愿她的心愿被温柔对待，也愿她把自己放在更重要的位置。",
+    "choices": []
+  },
+  {
+    "id": "jojo_ending",
+    "type": "ending",
+    "character_id": "jojo",
+    "text": "在这段陪伴的时光里，你感受到了她的真心与温柔。",
+    "ending_note": "做自己是最酷的事情",
+    "next": "hub"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ache_scene_001",
+    "type": "scene",
+    "text": "最开始他话不多，站在人群里像一块稳稳的石头。后来熟了，笑意变多，语气也更轻松了，像终于把日常重新拾回手里。",
+    "choices": []
+  },
+  {
+    "id": "ache_scene_002",
+    "type": "scene",
+    "text": "他有分寸，能扛事，遇到需要搭把手的地方就自然上前——洗碗、搬东西、收拾残局，从不让人尴尬，也不让热情变成负担。",
+    "choices": []
+  },
+  {
+    "id": "ache_scene_003",
+    "type": "scene",
+    "text": "看着他默默收拾着碗筷，你选择...",
+    "choices": [
+      {
+        "text": "接过他手里的碗一起洗",
+        "next": "ache_scene_004"
+      },
+      {
+        "text": "帮他把桌子擦干净整理好",
+        "next": "ache_scene_004"
+      },
+      {
+        "text": "在旁边陪他聊聊轻松的话题",
+        "next": "ache_scene_004"
+      }
+    ]
+  },
+  {
+    "id": "ache_scene_004",
+    "type": "scene",
+    "text": "他从最初的拘谨到现在的放松，这个过程很慢，但很真实。他不会勉强自己迎合谁，也不会让别人感到压力。",
+    "choices": []
+  },
+  {
+    "id": "ache_scene_005",
+    "type": "scene",
+    "text": "离开时，你想对他说...",
+    "choices": [
+      {
+        "text": "谢谢你总是默默帮大家收拾",
+        "next": "ache_scene_006"
+      },
+      {
+        "text": "看到你越来越放松真的很好",
+        "next": "ache_scene_006"
+      },
+      {
+        "text": "有你在大家都很安心",
+        "next": "ache_scene_006"
+      }
+    ]
+  },
+  {
+    "id": "ache_scene_006",
+    "type": "scene",
+    "text": "新的一年，愿他把生活过得更松一点、更甜一点。愿他想要的温柔与回应，都能在合适的时间来到。",
+    "choices": []
+  },
+  {
+    "id": "ache_ending",
+    "type": "ending",
+    "character_id": "ache",
+    "text": "在这段陪伴的时光里，你感受到了他的温柔与坚定。",
+    "ending_note": "内心的宁静是最珍贵的财富",
+    "next": "hub"
+  }
+]

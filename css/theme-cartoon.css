@@ -1,0 +1,60 @@
+/* Cartoon Theme */
+.theme-cartoon {
+  --color-bg-primary: #fff8f0;
+  --color-bg-secondary: #fef3e2;
+  --color-bg-tertiary: #fed7aa;
+  
+  --color-text-primary: #1c1917;
+  --color-text-secondary: #78716c;
+  
+  --color-border: #fed7aa;
+  --color-border-hover: #fdba74;
+  
+  --color-primary: #ea580c;
+  --color-primary-hover: #dc2626;
+  
+  --shadow-base: 0 4px 6px -1px rgba(234, 88, 12, 0.1), 0 2px 4px -2px rgba(234, 88, 12, 0.1);
+  --shadow-md: 0 10px 15px -3px rgba(234, 88, 12, 0.1), 0 4px 6px -4px rgba(234, 88, 12, 0.1);
+}
+
+.theme-cartoon .character-card,
+.theme-cartoon .card {
+  border: 3px solid var(--color-primary);
+  box-shadow: 4px 4px 0px rgba(234, 88, 12, 0.2);
+  transform: rotate(-1deg);
+}
+
+.theme-cartoon .character-card:hover {
+  transform: rotate(0deg) translateY(-4px);
+  box-shadow: 6px 6px 0px rgba(234, 88, 12, 0.3);
+}
+
+.theme-cartoon .scene-text {
+  border: 3px solid var(--color-primary);
+  box-shadow: 4px 4px 0px rgba(234, 88, 12, 0.2);
+  transform: rotate(-0.5deg);
+}
+
+.theme-cartoon .choice-btn {
+  border: 2px solid var(--color-primary);
+  border-radius: var(--radius-xl);
+  font-weight: var(--font-weight-semibold);
+  transform: rotate(-0.3deg);
+  transition: all var(--transition-base);
+}
+
+.theme-cartoon .choice-btn:hover {
+  transform: rotate(0deg) scale(1.02);
+  box-shadow: 2px 2px 0px rgba(234, 88, 12, 0.2);
+}
+
+.theme-cartoon .primary-btn {
+  border: 3px solid #dc2626;
+  box-shadow: 3px 3px 0px rgba(220, 38, 38, 0.3);
+  transform: rotate(-1deg);
+}
+
+.theme-cartoon .primary-btn:hover {
+  transform: rotate(0deg) translateY(-2px);
+  box-shadow: 4px 4px 0px rgba(220, 38, 38, 0.4);
+}

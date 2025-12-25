@@ -1,0 +1,72 @@
+[
+  {
+    "id": "chunxia_scene_001",
+    "type": "scene",
+    "text": "羽毛球场上她永远有能量：打得起劲，看到猫又能立刻切换成小孩般的专注，追着跑、笑着闹，像把世界调亮一格。",
+    "choices": []
+  },
+  {
+    "id": "chunxia_scene_002",
+    "type": "scene",
+    "text": "她热情、直率、敢爱敢恨，也敢把朋友护在身后。那些过去的风浪，她很少提，但她把自己重新养得很鲜活。",
+    "choices": []
+  },
+  {
+    "id": "chunxia_scene_003",
+    "type": "scene",
+    "text": "看着她在球场上挥汗如雨，你想要...",
+    "choices": [
+      {
+        "text": "主动给她递水和毛巾",
+        "next": "chunxia_scene_004"
+      },
+      {
+        "text": "陪她一起追那只突然出现的猫",
+        "next": "chunxia_scene_004"
+      },
+      {
+        "text": "为她的每个好球大声喝彩",
+        "next": "chunxia_scene_004"
+      }
+    ]
+  },
+  {
+    "id": "chunxia_scene_004",
+    "type": "scene",
+    "text": "她总是为朋友出头，遇到不公平的事情绝不会袖手旁观。她的热烈不是表演，而是真心实意地想要保护在乎的人。",
+    "choices": []
+  },
+  {
+    "id": "chunxia_scene_005",
+    "type": "scene",
+    "text": "运动结束后，你想对她说...",
+    "choices": [
+      {
+        "text": "你的活力总是能感染到大家",
+        "next": "chunxia_scene_006"
+      },
+      {
+        "text": "有你护着朋友们都很安心",
+        "next": "chunxia_scene_006"
+      },
+      {
+        "text": "看到你重新这么鲜活真的很好",
+        "next": "chunxia_scene_006"
+      }
+    ]
+  },
+  {
+    "id": "chunxia_scene_006",
+    "type": "scene",
+    "text": "新的一年，愿她的热烈不必总用来证明什么。愿她被善意回应，也被安稳拥抱，继续自由地发光。",
+    "choices": []
+  },
+  {
+    "id": "chunxia_ending",
+    "type": "ending",
+    "character_id": "chunxia",
+    "text": "在这段陪伴的时光里，你感受到了她的热情与真诚。",
+    "ending_note": "活力是生命最美的色彩",
+    "next": "hub"
+  }
+]

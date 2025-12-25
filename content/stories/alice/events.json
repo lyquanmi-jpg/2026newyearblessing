@@ -1,0 +1,155 @@
+[
+  {
+    "id": "alice_start",
+    "type": "scene",
+    "text": "爱丽丝站在一个神秘的花园入口前，面前有两条截然不同的小径。左边的小径被玫瑰花丛环绕，散发着甜美的香气；右边的小径则被古老的橡树遮蔽，显得幽深神秘。",
+    "choices": [
+      {
+        "text": "选择玫瑰小径，追寻甜美的香气",
+        "next": "alice_rose_path"
+      },
+      {
+        "text": "选择橡树小径，探索神秘的深处",
+        "next": "alice_oak_path"
+      }
+    ]
+  },
+  {
+    "id": "alice_rose_path",
+    "type": "scene",
+    "text": "爱丽丝沿着玫瑰小径前行，花香越来越浓郁。突然，她发现了一只会说话的白兔，白兔焦急地看着怀表说：'糟糕，要迟到了！'白兔注意到了爱丽丝，停下了脚步。",
+    "choices": [
+      {
+        "text": "询问白兔要去哪里",
+        "next": "alice_rabbit_talk"
+      },
+      {
+        "text": "悄悄跟在白兔后面",
+        "next": "alice_follow_rabbit"
+      }
+    ]
+  },
+  {
+    "id": "alice_oak_path",
+    "type": "scene",
+    "text": "橡树小径比想象中更加幽深，古老的树木似乎在窃窃私语。爱丽丝走着走着，发现了一扇隐藏在树干中的小门，门上刻着古老的符文。",
+    "choices": [
+      {
+        "text": "尝试推开这扇神秘的门",
+        "next": "alice_magic_door"
+      },
+      {
+        "text": "继续沿着小径前行",
+        "next": "alice_deeper_forest"
+      }
+    ]
+  },
+  {
+    "id": "alice_rabbit_talk",
+    "type": "scene",
+    "text": "白兔惊讶地看着爱丽丝：'你能听懂我说话？太好了！我要去参加红心女王的茶会，但是我迷路了。你愿意帮助我吗？'",
+    "choices": [
+      {
+        "text": "答应帮助白兔找到茶会",
+        "next": "alice_help_rabbit"
+      },
+      {
+        "text": "礼貌地拒绝，继续自己的探险",
+        "next": "alice_continue_alone"
+      }
+    ]
+  },
+  {
+    "id": "alice_follow_rabbit",
+    "type": "scene",
+    "text": "爱丽丝悄悄跟着白兔，来到了一个巨大的兔子洞前。白兔毫不犹豫地跳了进去，爱丽丝站在洞口犹豫着。",
+    "choices": [
+      {
+        "text": "勇敢地跳进兔子洞",
+        "next": "alice_rabbit_hole"
+      },
+      {
+        "text": "在洞口等待，看看会发生什么",
+        "next": "alice_wait_hole"
+      }
+    ]
+  },
+  {
+    "id": "alice_magic_door",
+    "type": "scene",
+    "text": "门缓缓打开，里面是一个充满魔法光芒的房间。房间中央有一张桌子，上面放着一瓶标着'喝我'的药水和一块写着'吃我'的蛋糕。",
+    "choices": [
+      {
+        "text": "喝下神秘的药水",
+        "next": "alice_drink_potion"
+      },
+      {
+        "text": "吃掉魔法蛋糕",
+        "next": "alice_eat_cake"
+      }
+    ]
+  },
+  {
+    "id": "alice_deeper_forest",
+    "type": "scene",
+    "text": "爱丽丝继续深入森林，遇到了一只笑容满面的柴郡猫，它正悬浮在树枝上。'你好，迷路的小姑娘，需要指引吗？'猫咪神秘地笑着。",
+    "choices": [
+      {
+        "text": "请求柴郡猫的指引",
+        "next": "alice_cat_guidance"
+      },
+      {
+        "text": "谢绝帮助，相信自己的直觉",
+        "next": "alice_trust_instinct"
+      }
+    ]
+  },
+  {
+    "id": "alice_help_rabbit",
+    "type": "ending",
+    "text": "爱丽丝帮助白兔找到了茶会的地点。在那里，她遇到了疯帽子和三月兔，度过了一个充满欢声笑语的下午。虽然茶会很疯狂，但爱丽丝学会了有时候帮助他人比独自冒险更有意义。",
+    "ending_note": "善良的心总能带来意想不到的快乐"
+  },
+  {
+    "id": "alice_continue_alone",
+    "type": "ending",
+    "text": "爱丽丝选择继续自己的探险，她发现了花园深处的一个秘密花园，里面种满了会唱歌的花朵。她在那里度过了一个宁静而美好的下午，学会了独处的价值。",
+    "ending_note": "有时候，最美的风景需要独自去发现"
+  },
+  {
+    "id": "alice_rabbit_hole",
+    "type": "ending",
+    "text": "爱丽丝跳进兔子洞，经历了一场奇妙的冒险。她在仙境中遇到了各种奇怪的生物，参加了疯狂的茶会，最终成为了仙境的一部分。她的勇气让她获得了永恒的快乐。",
+    "ending_note": "勇敢的心能开启通往奇迹的大门"
+  },
+  {
+    "id": "alice_wait_hole",
+    "type": "ending",
+    "text": "爱丽丝在洞口等待，最终白兔带着一群仙境的朋友回来了。他们邀请爱丽丝参加地面上的野餐会，她在现实与幻想的边界上找到了完美的平衡。",
+    "ending_note": "耐心等待有时比冒险更需要智慧"
+  },
+  {
+    "id": "alice_drink_potion",
+    "type": "ending",
+    "text": "爱丽丝喝下药水后变得很小，她发现了一个微观世界，在那里与花朵和昆虫成为了朋友。她学会了从不同的角度看世界，获得了全新的视野。",
+    "ending_note": "改变视角，世界就会变得不同"
+  },
+  {
+    "id": "alice_eat_cake",
+    "type": "ending",
+    "text": "爱丽丝吃下蛋糕后变得巨大，她能够看到整个花园的全貌。她成为了花园的守护者，保护着所有的小生物，学会了承担责任的重要性。",
+    "ending_note": "力量越大，责任越大"
+  },
+  {
+    "id": "alice_cat_guidance",
+    "type": "ending",
+    "text": "柴郡猫带领爱丽丝来到了一个充满智慧的图书馆，在那里她学到了许多关于世界的秘密。她成为了一个智者，用知识帮助其他迷路的旅人。",
+    "ending_note": "知识是照亮黑暗的明灯"
+  },
+  {
+    "id": "alice_trust_instinct",
+    "type": "ending",
+    "text": "爱丽丝相信自己的直觉，最终找到了花园的中心——一个美丽的喷泉。在那里她遇到了花园的精灵，获得了预知未来的能力。她学会了相信内心的声音。",
+    "ending_note": "相信自己，内心的声音永远不会欺骗你"
+  }
+]

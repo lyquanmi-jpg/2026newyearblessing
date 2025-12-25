@@ -1,0 +1,72 @@
+[
+  {
+    "id": "feifei_scene_001",
+    "type": "scene",
+    "text": "她把自己经营得很漂亮：妆发、穿搭、镜头里的光。即使生活有压力，她也会在舞蹈和练习里，把自己一点点找回来。",
+    "choices": []
+  },
+  {
+    "id": "feifei_scene_002",
+    "type": "scene",
+    "text": "有些阶段，人会慢慢缩回去，不是疏远，而是自我修复。她依然在努力，只是把力气用在更需要的地方。",
+    "choices": []
+  },
+  {
+    "id": "feifei_scene_003",
+    "type": "scene",
+    "text": "看着她在练舞时专注的样子，你想要...",
+    "choices": [
+      {
+        "text": "安静地在旁边陪她练习",
+        "next": "feifei_scene_004"
+      },
+      {
+        "text": "为她准备水和毛巾",
+        "next": "feifei_scene_004"
+      },
+      {
+        "text": "夸赞她的舞蹈动作很优美",
+        "next": "feifei_scene_004"
+      }
+    ]
+  },
+  {
+    "id": "feifei_scene_004",
+    "type": "scene",
+    "text": "失业的压力让她只能单休，但她依然坚持练舞。在镜子前，她重新找回了自己的光彩，那种美丽不只是外表，更是内心的坚持。",
+    "choices": []
+  },
+  {
+    "id": "feifei_scene_005",
+    "type": "scene",
+    "text": "练习结束后，你想对她说...",
+    "choices": [
+      {
+        "text": "你跳舞的时候真的很有魅力",
+        "next": "feifei_scene_006"
+      },
+      {
+        "text": "坚持练舞的你很了不起",
+        "next": "feifei_scene_006"
+      },
+      {
+        "text": "希望你的努力都能被看见",
+        "next": "feifei_scene_006"
+      }
+    ]
+  },
+  {
+    "id": "feifei_scene_006",
+    "type": "scene",
+    "text": "新的一年，愿她的节奏更轻、睡眠更稳、心更松。愿她被看见的，不只是漂亮，还有那份坚持。",
+    "choices": []
+  },
+  {
+    "id": "feifei_ending",
+    "type": "ending",
+    "character_id": "feifei",
+    "text": "在这段陪伴的时光里，你看到了她的坚持与美丽。",
+    "ending_note": "优雅是内心美丽的外在体现",
+    "next": "hub"
+  }
+]

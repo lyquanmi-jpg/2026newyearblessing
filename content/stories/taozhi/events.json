@@ -1,0 +1,72 @@
+[
+  {
+    "id": "taozhi_scene_001",
+    "type": "scene",
+    "text": "她一开始安静，像把自己放在边缘。熟了以后又能很放得开，笑起来有光，气氛会自然往她那边靠。",
+    "choices": []
+  },
+  {
+    "id": "taozhi_scene_002",
+    "type": "scene",
+    "text": "她精致、会穿搭、也会把生活过得漂亮。但她从不用这些压人——她只是把自己照顾得很好，也让身边的人更愿意参与热闹。",
+    "choices": []
+  },
+  {
+    "id": "taozhi_scene_003",
+    "type": "scene",
+    "text": "看着她精心搭配的穿搭，你想要...",
+    "choices": [
+      {
+        "text": "夸她今天的搭配很有品味",
+        "next": "taozhi_scene_004"
+      },
+      {
+        "text": "请教她穿搭的小技巧",
+        "next": "taozhi_scene_004"
+      },
+      {
+        "text": "邀请她一起参加群里的活动",
+        "next": "taozhi_scene_004"
+      }
+    ]
+  },
+  {
+    "id": "taozhi_scene_004",
+    "type": "scene",
+    "text": "从最初的社恐到现在能在群里自在地聊天，她的变化很明显。她开始愿意分享自己的想法，也更主动地参与大家的话题。",
+    "choices": []
+  },
+  {
+    "id": "taozhi_scene_005",
+    "type": "scene",
+    "text": "聚会快结束时，你想对她说...",
+    "choices": [
+      {
+        "text": "很高兴看到你越来越放得开",
+        "next": "taozhi_scene_006"
+      },
+      {
+        "text": "你的审美和品味真的很棒",
+        "next": "taozhi_scene_006"
+      },
+      {
+        "text": "希望以后能经常一起参加活动",
+        "next": "taozhi_scene_006"
+      }
+    ]
+  },
+  {
+    "id": "taozhi_scene_006",
+    "type": "scene",
+    "text": "新的一年，愿她继续被喜欢、被尊重、被认真对待。愿她挑选的标准不必降低，愿她想要的答案更清晰。",
+    "choices": []
+  },
+  {
+    "id": "taozhi_ending",
+    "type": "ending",
+    "character_id": "taozhi",
+    "text": "在这段陪伴的时光里，你见证了她的蜕变与成长。",
+    "ending_note": "诗意的心能发现生活的美好",
+    "next": "hub"
+  }
+]

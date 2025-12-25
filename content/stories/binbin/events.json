@@ -1,0 +1,72 @@
+[
+  {
+    "id": "binbin_scene_001",
+    "type": "scene",
+    "text": "总有人提前到场：买菜、备水、安排时间。热闹还没开始，他已经把'顺利'这件事先铺好。",
+    "choices": []
+  },
+  {
+    "id": "binbin_scene_002",
+    "type": "scene",
+    "text": "他有自己的节奏：该省省、该花花，讲究效率，也讲究体验。那些细碎的准备工作，很少被夸，但每次活动能落地，离不开他。",
+    "choices": []
+  },
+  {
+    "id": "binbin_scene_003",
+    "type": "scene",
+    "text": "看着他提着大包小包的采购回来，你想要...",
+    "choices": [
+      {
+        "text": "主动帮他把重的袋子接过来",
+        "next": "binbin_scene_004"
+      },
+      {
+        "text": "帮他把买来的东西分类整理",
+        "next": "binbin_scene_004"
+      },
+      {
+        "text": "夸他买的东西都很实用贴心",
+        "next": "binbin_scene_004"
+      }
+    ]
+  },
+  {
+    "id": "binbin_scene_004",
+    "type": "scene",
+    "text": "他的衣品越来越好了，整个人也更有自信。虽然在感情上还没遇到对的人，但他没有因此而沮丧，依然认真地生活着。",
+    "choices": []
+  },
+  {
+    "id": "binbin_scene_005",
+    "type": "scene",
+    "text": "活动结束后，你想对他说...",
+    "choices": [
+      {
+        "text": "今天的安排很周到，大家都很开心",
+        "next": "binbin_scene_006"
+      },
+      {
+        "text": "下次活动我也想学着帮你筹备",
+        "next": "binbin_scene_006"
+      },
+      {
+        "text": "你会遇到懂得欣赏你的人的",
+        "next": "binbin_scene_006"
+      }
+    ]
+  },
+  {
+    "id": "binbin_scene_006",
+    "type": "scene",
+    "text": "新的一年，愿他的认真被更温柔地接住。愿他把自己也安排进幸福里，而不是永远站在后勤的位置。",
+    "choices": []
+  },
+  {
+    "id": "binbin_ending",
+    "type": "ending",
+    "character_id": "binbin",
+    "text": "在这段陪伴的时光里，你看到了他的用心与坚持。",
+    "ending_note": "真正的绅士用行动诠释温暖",
+    "next": "hub"
+  }
+]

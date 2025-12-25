@@ -1,0 +1,72 @@
+[
+  {
+    "id": "baimao_scene_001",
+    "type": "scene",
+    "text": "露营那天，烟火气从早到晚。他买肉、串肉、烤到刚好，忙得满头汗，却把'大家吃得开心'放在第一位。",
+    "choices": []
+  },
+  {
+    "id": "baimao_scene_002",
+    "type": "scene",
+    "text": "他踏实、有手艺，也肯花时间做事。那些看起来'理所当然'的好，其实都需要一个愿意付出的人。",
+    "choices": []
+  },
+  {
+    "id": "baimao_scene_003",
+    "type": "scene",
+    "text": "看着他专注地烤肉，你想要...",
+    "choices": [
+      {
+        "text": "帮他把烤好的肉装盘分给大家",
+        "next": "baimao_scene_004"
+      },
+      {
+        "text": "给他递水和纸巾擦汗",
+        "next": "baimao_scene_004"
+      },
+      {
+        "text": "接过烤叉让他也休息一下",
+        "next": "baimao_scene_004"
+      }
+    ]
+  },
+  {
+    "id": "baimao_scene_004",
+    "type": "scene",
+    "text": "他骑着机车来的，后座绑着满满的食材和装备。为了这次露营，他提前好几天就开始准备，连调料都是精心搭配的。",
+    "choices": []
+  },
+  {
+    "id": "baimao_scene_005",
+    "type": "scene",
+    "text": "夜深了，篝火渐小，你想对他说...",
+    "choices": [
+      {
+        "text": "今天的烤肉是我吃过最香的",
+        "next": "baimao_scene_006"
+      },
+      {
+        "text": "下次露营装备我来准备一些",
+        "next": "baimao_scene_006"
+      },
+      {
+        "text": "你的手艺和用心大家都看在眼里",
+        "next": "baimao_scene_006"
+      }
+    ]
+  },
+  {
+    "id": "baimao_scene_006",
+    "type": "scene",
+    "text": "新的一年，愿他一路顺风，也一路被认可。愿他的认真不被辜负，愿他在热爱里越走越稳。",
+    "choices": []
+  },
+  {
+    "id": "baimao_ending",
+    "type": "ending",
+    "character_id": "baimao",
+    "text": "在这段陪伴的时光里，你看到了他的用心与真诚。",
+    "ending_note": "纯真的心是世界上最美的宝石",
+    "next": "hub"
+  }
+]

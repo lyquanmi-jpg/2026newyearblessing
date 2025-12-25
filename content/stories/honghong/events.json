@@ -1,0 +1,72 @@
+[
+  {
+    "id": "honghong_scene_001",
+    "type": "scene",
+    "text": "她总能把一次普通的聚会，变成一段被好好记住的时间。拍照、带小零食、挑一家小馆子，像把'今天值得'这件事认真地落到实处。",
+    "choices": []
+  },
+  {
+    "id": "honghong_scene_002",
+    "type": "scene",
+    "text": "她更像大家的'红妈'：热心、体贴、会照顾到那些不善表达的人。有人缩在自己的小世界里，她会用一顿饭、一张照片，把人轻轻拉出来。",
+    "choices": []
+  },
+  {
+    "id": "honghong_scene_003",
+    "type": "scene",
+    "text": "看着她忙着给大家拍照，你想要...",
+    "choices": [
+      {
+        "text": "主动帮她拿包和道具",
+        "next": "honghong_scene_004"
+      },
+      {
+        "text": "悄悄给她也拍几张照片",
+        "next": "honghong_scene_004"
+      },
+      {
+        "text": "提醒她也要入镜合影",
+        "next": "honghong_scene_004"
+      }
+    ]
+  },
+  {
+    "id": "honghong_scene_004",
+    "type": "scene",
+    "text": "她总是记得每个人的喜好，知道谁爱吃甜的，谁不能吃辣。这些细节她都默默记在心里，然后在合适的时候给出最贴心的安排。",
+    "choices": []
+  },
+  {
+    "id": "honghong_scene_005",
+    "type": "scene",
+    "text": "临别时，你想对她说...",
+    "choices": [
+      {
+        "text": "谢谢你总是照顾大家的感受",
+        "next": "honghong_scene_006"
+      },
+      {
+        "text": "下次聚会我来安排，你好好休息",
+        "next": "honghong_scene_006"
+      },
+      {
+        "text": "你的温暖让每个人都很安心",
+        "next": "honghong_scene_006"
+      }
+    ]
+  },
+  {
+    "id": "honghong_scene_006",
+    "type": "scene",
+    "text": "新的一年，希望她也能把力气留给自己：吃得开心，走得从容，不必追赶谁的节奏。愿她始终被珍惜，也始终有自己的光。",
+    "choices": []
+  },
+  {
+    "id": "honghong_ending",
+    "type": "ending",
+    "character_id": "honghong",
+    "text": "在这段陪伴的时光里，你见证了她的温暖，也感受到了被关怀的美好。",
+    "ending_note": "温暖的心能照亮整个世界",
+    "next": "hub"
+  }
+]

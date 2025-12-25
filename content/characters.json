@@ -1,0 +1,80 @@
+[
+  {
+    "id": "honghong",
+    "name": "红红",
+    "description": "温暖如春的女孩，总是用她的笑容照亮身边的每一个人。",
+    "avatar": "assets/images/characters/honghong.jpg"
+  },
+  {
+    "id": "xiaomeng",
+    "name": "小梦",
+    "description": "可爱活泼的少女，拥有治愈人心的神奇力量。",
+    "avatar": "assets/images/characters/xiaomeng.jpg"
+  },
+  {
+    "id": "ache",
+    "name": "阿澈",
+    "description": "沉静内敛的青年，用心感受世界的美好与温柔。",
+    "avatar": "assets/images/characters/ache.jpg"
+  },
+  {
+    "id": "binbin",
+    "name": "彬彬",
+    "description": "文雅有礼的绅士，总是为他人着想的暖心存在。",
+    "avatar": "assets/images/characters/binbin.jpg"
+  },
+  {
+    "id": "niaoge",
+    "name": "鸟哥",
+    "description": "自由自在的旅行者，用歌声传递快乐与希望。",
+    "avatar": "assets/images/characters/niaoge.jpg"
+  },
+  {
+    "id": "taozhi",
+    "name": "桃汁",
+    "description": "如桃花般美丽的女子，心中藏着无尽的诗意与浪漫。",
+    "avatar": "assets/images/characters/taozhi.jpg"
+  },
+  {
+    "id": "chunxia",
+    "name": "春夏",
+    "description": "充满活力的女孩，像春天一样带来新的希望与生机。",
+    "avatar": "assets/images/characters/chunxia.jpg"
+  },
+  {
+    "id": "djie",
+    "name": "D姐",
+    "description": "温柔善良的女孩子，说话轻声细语，却总能让人安心。她把照顾别人这件事，做得自然又真诚。",
+    "avatar": "assets/images/characters/djie.jpg"
+  },
+  {
+    "id": "jojo",
+    "name": "JoJo",
+    "description": "像红妈一样的存在，总是默默照顾着身边的人。她对朋友的关怀，不张扬，却一直都在。",
+    "avatar": "assets/images/characters/jojo.jpg"
+  },
+  {
+    "id": "feifei",
+    "name": "肥肥",
+    "description": "优雅迷人的女子，如蝴蝶般轻盈美丽。",
+    "avatar": "assets/images/characters/feifei.jpg"
+  },
+  {
+    "id": "lanmao",
+    "name": "懒猫",
+    "description": "给自己按了暂停键的女孩，正在重新寻找属于自己的生活节奏。她懂得休整的智慧，也有重新出发的勇气。",
+    "avatar": "assets/images/characters/lanmao.jpg"
+  },
+  {
+    "id": "wenting",
+    "name": "文婷",
+    "description": "知性温婉的女子，用文字记录生活中的美好瞬间。",
+    "avatar": "assets/images/characters/wenting.jpg"
+  },
+  {
+    "id": "baimao",
+    "name": "白猫",
+    "description": "纯洁无瑕的小天使，用纯真的心灵感化着世界。",
+    "avatar": "assets/images/characters/baimao.jpg"
+  }
+]

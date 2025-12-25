@@ -1,0 +1,72 @@
+[
+  {
+    "id": "niaoge_scene_001",
+    "type": "scene",
+    "text": "聊到想去哪儿，大家还在想路，他已经把路线、价格、时间表摆在桌面上。像一张随时能出发的地图。",
+    "choices": []
+  },
+  {
+    "id": "niaoge_scene_002",
+    "type": "scene",
+    "text": "他高大、温和、会照顾人，懂得让同伴舒服。旅行这件事，在他手里不只是'去哪里'，更像'怎么一起好好过一段时间'。",
+    "choices": []
+  },
+  {
+    "id": "niaoge_scene_003",
+    "type": "scene",
+    "text": "看着他细心安排着路线，你想要...",
+    "choices": [
+      {
+        "text": "帮他查找沿途的特色餐厅",
+        "next": "niaoge_scene_004"
+      },
+      {
+        "text": "主动承担一部分预订工作",
+        "next": "niaoge_scene_004"
+      },
+      {
+        "text": "询问他的偏好和想去的地方",
+        "next": "niaoge_scene_004"
+      }
+    ]
+  },
+  {
+    "id": "niaoge_scene_004",
+    "type": "scene",
+    "text": "他总能找到最优惠的折扣，最合适的时间，还会考虑到每个人的预算和喜好。他想带着大家一起出发，去看更远的风景。",
+    "choices": []
+  },
+  {
+    "id": "niaoge_scene_005",
+    "type": "scene",
+    "text": "出发前，你想对他说...",
+    "choices": [
+      {
+        "text": "这次旅行有你安排我们很放心",
+        "next": "niaoge_scene_006"
+      },
+      {
+        "text": "路上你也要好好享受不要太累",
+        "next": "niaoge_scene_006"
+      },
+      {
+        "text": "下次我也想学着做攻略分担一些",
+        "next": "niaoge_scene_006"
+      }
+    ]
+  },
+  {
+    "id": "niaoge_scene_006",
+    "type": "scene",
+    "text": "新的一年，愿他走得更远，也更被理解。愿他把温柔留给对的人，也把精致留给更好的自己。",
+    "choices": []
+  },
+  {
+    "id": "niaoge_ending",
+    "type": "ending",
+    "character_id": "niaoge",
+    "text": "在这段陪伴的时光里，你看到了他的细心与温柔。",
+    "ending_note": "音乐是连接心灵的桥梁",
+    "next": "hub"
+  }
+]

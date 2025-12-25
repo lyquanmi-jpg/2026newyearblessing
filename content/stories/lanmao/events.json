@@ -1,0 +1,72 @@
+[
+  {
+    "id": "lanmao_scene_001",
+    "type": "scene",
+    "text": "她给自己按了暂停键。不是逃避，而是终于允许自己停下来，重新审视想要的生活。偶尔帮姐姐带娃，更多时候是一个人安静地待着。",
+    "choices": []
+  },
+  {
+    "id": "lanmao_scene_002",
+    "type": "scene",
+    "text": "她开始重新发现自己：睡到自然醒，看想看的书，去想去的地方。那些曾经被忽略的小愿望，现在可以一个个慢慢实现。",
+    "choices": []
+  },
+  {
+    "id": "lanmao_scene_003",
+    "type": "scene",
+    "text": "看着她在咖啡店里安静地看书，你想要...",
+    "choices": [
+      {
+        "text": "悄悄为她点一杯她爱喝的茶",
+        "next": "lanmao_scene_004"
+      },
+      {
+        "text": "推荐一本你觉得她会喜欢的书",
+        "next": "lanmao_scene_004"
+      },
+      {
+        "text": "就这样安静地陪她坐一会儿",
+        "next": "lanmao_scene_004"
+      }
+    ]
+  },
+  {
+    "id": "lanmao_scene_004",
+    "type": "scene",
+    "text": "她说，这段时间像是重新认识自己。没有外界的期待和催促，她可以诚实地面对内心，想清楚下一步要往哪里走。",
+    "choices": []
+  },
+  {
+    "id": "lanmao_scene_005",
+    "type": "scene",
+    "text": "她开始有了新的计划和想法，你想对她说...",
+    "choices": [
+      {
+        "text": "无论你选择什么，我都支持你",
+        "next": "lanmao_scene_006"
+      },
+      {
+        "text": "这段休整让你更清楚自己想要什么了",
+        "next": "lanmao_scene_006"
+      },
+      {
+        "text": "你有权利为自己选择最舒服的节奏",
+        "next": "lanmao_scene_006"
+      }
+    ]
+  },
+  {
+    "id": "lanmao_scene_006",
+    "type": "scene",
+    "text": "新的一年，愿她在自己选择的道路上，走得从容而坚定。愿她永远记得，为自己而活是一件值得的事。",
+    "choices": []
+  },
+  {
+    "id": "lanmao_ending",
+    "type": "ending",
+    "character_id": "lanmao",
+    "text": "在这段陪伴的时光里，你见证了她的暂停与重新出发。",
+    "ending_note": "懂得为自己按暂停键的智慧",
+    "next": "hub"
+  }
+]

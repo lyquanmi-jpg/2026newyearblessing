@@ -1,0 +1,155 @@
+[
+  {
+    "id": "wizard_start",
+    "type": "scene",
+    "text": "智者梅林站在古老的魔法塔顶，手中握着一颗预言水晶。水晶中显现出两个未来：一个是王国陷入黑暗，另一个是光明重新降临。但改变命运需要付出巨大的代价。",
+    "choices": [
+      {
+        "text": "使用禁忌魔法拯救王国",
+        "next": "wizard_forbidden_magic"
+      },
+      {
+        "text": "寻找其他方法，避免使用危险的力量",
+        "next": "wizard_seek_alternative"
+      }
+    ]
+  },
+  {
+    "id": "wizard_forbidden_magic",
+    "type": "scene",
+    "text": "梅林决定使用禁忌魔法。他来到了封印之地，那里沉睡着古老的力量。但是使用这种力量需要献祭自己的一部分生命力。守护封印的精灵警告他这样做的后果。",
+    "choices": [
+      {
+        "text": "不顾警告，强行解开封印",
+        "next": "wizard_break_seal"
+      },
+      {
+        "text": "听从精灵的建议，寻找其他方式",
+        "next": "wizard_listen_spirit"
+      }
+    ]
+  },
+  {
+    "id": "wizard_seek_alternative",
+    "type": "scene",
+    "text": "梅林决定寻找其他方法。他翻阅古老的魔法书籍，发现了一个传说：在世界的尽头有一棵智慧之树，它的果实能够赐予解决任何问题的智慧。但前往那里的路程充满危险。",
+    "choices": [
+      {
+        "text": "立即启程前往世界尽头",
+        "next": "wizard_journey_start"
+      },
+      {
+        "text": "先准备充分再出发",
+        "next": "wizard_prepare_journey"
+      }
+    ]
+  },
+  {
+    "id": "wizard_break_seal",
+    "type": "scene",
+    "text": "梅林强行解开了封印，获得了巨大的力量，但他的头发变得雪白，生命力大幅衰减。现在他必须在有限的时间内拯救王国。黑暗势力已经察觉到了他的行动。",
+    "choices": [
+      {
+        "text": "直接对抗黑暗势力",
+        "next": "wizard_direct_confrontation"
+      },
+      {
+        "text": "暗中行动，智取黑暗势力",
+        "next": "wizard_stealth_approach"
+      }
+    ]
+  },
+  {
+    "id": "wizard_listen_spirit",
+    "type": "scene",
+    "text": "精灵告诉梅林，真正的力量来自于内心的平静和智慧，而不是外在的魔法。它教给梅林一种古老的冥想法，能够唤醒内在的潜能。",
+    "choices": [
+      {
+        "text": "专心学习冥想法",
+        "next": "wizard_learn_meditation"
+      },
+      {
+        "text": "将冥想法与现有魔法结合",
+        "next": "wizard_combine_powers"
+      }
+    ]
+  },
+  {
+    "id": "wizard_journey_start",
+    "type": "scene",
+    "text": "梅林立即启程，但在路上遇到了暴风雨。他的魔法在恶劣天气中受到了限制，必须寻找避难所。他发现了一个山洞，但里面似乎有什么东西在移动。",
+    "choices": [
+      {
+        "text": "进入山洞避雨",
+        "next": "wizard_enter_cave"
+      },
+      {
+        "text": "继续在暴风雨中前行",
+        "next": "wizard_brave_storm"
+      }
+    ]
+  },
+  {
+    "id": "wizard_prepare_journey",
+    "type": "scene",
+    "text": "梅林花时间准备旅程，他制作了各种魔法道具和药剂。在准备过程中，他的学徒来找他，请求一同前往。学徒虽然年轻，但充满热情。",
+    "choices": [
+      {
+        "text": "带上学徒一起旅行",
+        "next": "wizard_with_apprentice"
+      },
+      {
+        "text": "让学徒留下守护魔法塔",
+        "next": "wizard_alone_journey"
+      }
+    ]
+  },
+  {
+    "id": "wizard_direct_confrontation",
+    "type": "ending",
+    "text": "梅林用尽全力与黑暗势力正面对抗。虽然他成功拯救了王国，但巨大的力量消耗让他化为了星光，永远守护着这片土地。人们将永远记住这位伟大的魔法师。",
+    "ending_note": "真正的英雄愿意为了他人牺牲一切"
+  },
+  {
+    "id": "wizard_stealth_approach",
+    "type": "ending",
+    "text": "梅林选择智取，他潜入黑暗势力的核心，用智慧而非蛮力解决了问题。虽然他的生命力有所损失，但他活了下来，继续作为王国的守护者。",
+    "ending_note": "智慧比力量更能解决问题"
+  },
+  {
+    "id": "wizard_learn_meditation",
+    "type": "ending",
+    "text": "梅林通过冥想获得了内心的平静和强大的精神力量。他不需要任何外在的魔法就能够感化黑暗势力，让它们重新回到光明。王国获得了真正的和平。",
+    "ending_note": "内心的力量是最强大的魔法"
+  },
+  {
+    "id": "wizard_combine_powers",
+    "type": "ending",
+    "text": "梅林将冥想法与魔法结合，创造出了全新的魔法体系。他不仅拯救了王国，还为后世的魔法师留下了宝贵的知识传承。",
+    "ending_note": "创新来自于不同智慧的融合"
+  },
+  {
+    "id": "wizard_enter_cave",
+    "type": "ending",
+    "text": "山洞中住着一位隐居的贤者，他告诉梅林智慧之树其实就在每个人的心中。梅林恍然大悟，用心中的智慧解决了王国的危机。",
+    "ending_note": "最远的路有时就是回到内心"
+  },
+  {
+    "id": "wizard_brave_storm",
+    "type": "ending",
+    "text": "梅林在暴风雨中坚持前行，他的决心感动了天地。暴风雨停息，彩虹出现，指引他找到了智慧之树。他获得了拯救王国的智慧。",
+    "ending_note": "坚持不懈的决心能够感动天地"
+  },
+  {
+    "id": "wizard_with_apprentice",
+    "type": "ending",
+    "text": "梅林和学徒一起踏上旅程。在路上，学徒的纯真和热情提醒了梅林初心的重要性。师徒二人合力找到了智慧之树，共同拯救了王国。",
+    "ending_note": "传承的力量能够创造奇迹"
+  },
+  {
+    "id": "wizard_alone_journey",
+    "type": "ending",
+    "text": "梅林独自踏上旅程，在孤独的路上他深刻反思了自己的人生。最终他意识到，真正的智慧来自于对生命的理解和对他人的关爱。",
+    "ending_note": "孤独的旅程能让人找到真正的自己"
+  }
+]
