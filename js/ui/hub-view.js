@@ -5,6 +5,10 @@ class HubView {
     this.characterList = document.getElementById('character-list');
     this.recentSection = document.getElementById('recent-companions');
     this.recentList = document.getElementById('recent-list');
+    this.newYearMenu = document.getElementById('new-year-menu');
+    this.newYearBtn = document.getElementById('new-year-btn');
+    this.newYearDot = document.getElementById('new-year-dot');
+    this.newYearHint = document.getElementById('new-year-hint');
     
     this.bindEvents();
   }
@@ -12,6 +16,23 @@ class HubView {
   bindEvents() {
     // 初始绑定footer事件
     this.bindFooterEvents();
+    
+    // 新年菜单点击事件
+    this.newYearBtn.addEventListener('click', () => {
+      // 隐藏红点（如果显示的话）
+      if (!window.storageEngine.hasShownNewYearDot()) {
+        window.storageEngine.markNewYearDotShown();
+        this.newYearDot.classList.add('hidden');
+      }
+      
+      // 隐藏提示文字（如果显示的话）
+      if (!window.storageEngine.hasShownNewYearHint()) {
+        window.storageEngine.markNewYearHintShown();
+        this.newYearHint.classList.add('hidden');
+      }
+      
+      window.app.showNewYearBlessing();
+    });
   }
 
   // 显示Hub视图
@@ -49,6 +70,9 @@ class HubView {
 
     // 更新footer按钮
     this.updateFooterButtons();
+    
+    // 更新新年菜单显示状态
+    this.updateNewYearMenu();
   }
 
   // 渲染最近陪伴
@@ -116,6 +140,31 @@ class HubView {
 
     document.querySelector('.footer').innerHTML = footerHtml;
     this.bindFooterEvents();
+  }
+
+  // 更新新年菜单显示状态
+  updateNewYearMenu() {
+    const hasCompletedAll = window.storageEngine.hasCompletedAllStories();
+    
+    if (hasCompletedAll) {
+      this.newYearMenu.classList.remove('hidden');
+      
+      // 检查是否需要显示红点（第一次显示时）
+      if (!window.storageEngine.hasShownNewYearDot()) {
+        this.newYearDot.classList.remove('hidden');
+      } else {
+        this.newYearDot.classList.add('hidden');
+      }
+      
+      // 检查是否需要显示提示文字（第一次显示时）
+      if (!window.storageEngine.hasShownNewYearHint()) {
+        this.newYearHint.classList.remove('hidden');
+      } else {
+        this.newYearHint.classList.add('hidden');
+      }
+    } else {
+      this.newYearMenu.classList.add('hidden');
+    }
   }
 
   bindFooterEvents() {

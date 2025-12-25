@@ -302,6 +302,37 @@ class StorageEngine {
   shouldTriggerRealizationMoment() {
     return this.getCompletedStoriesCount() >= 5 && !this.hasShownRealizationMoment();
   }
+
+  // 检查是否完成了所有角色故事
+  hasCompletedAllStories() {
+    return this.getCompletedStoriesCount() >= 13; // 总共13个角色
+  }
+
+  // 检查是否已显示过新年菜单红点
+  hasShownNewYearDot() {
+    const saveData = this.load();
+    return saveData.newYearDotShown === true;
+  }
+
+  // 标记新年菜单红点已显示
+  markNewYearDotShown() {
+    const saveData = this.load();
+    saveData.newYearDotShown = true;
+    this.save(saveData);
+  }
+
+  // 检查是否已显示过新年提示文字
+  hasShownNewYearHint() {
+    const saveData = this.load();
+    return saveData.newYearHintShown === true;
+  }
+
+  // 标记新年提示文字已显示
+  markNewYearHintShown() {
+    const saveData = this.load();
+    saveData.newYearHintShown = true;
+    this.save(saveData);
+  }
 }
 
 // 全局存储实例

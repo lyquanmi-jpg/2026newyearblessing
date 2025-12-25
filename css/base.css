@@ -794,3 +794,205 @@ p {
     transform: scale(0.95);
   }
 }
+/* Hub Header with New Year Menu */
+.hub-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--space-8);
+  position: relative;
+}
+
+.hub-header .title {
+  margin-bottom: 0;
+}
+
+/* New Year Menu */
+.new-year-menu {
+  position: relative;
+  margin-top: var(--space-2);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.new-year-btn {
+  background: none;
+  border: none;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-base);
+  transition: all var(--transition-fast);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: 0.3px;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.new-year-btn:hover {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+}
+
+.new-year-symbol {
+  font-size: var(--font-size-base);
+  color: var(--color-primary);
+  opacity: 0.8;
+}
+
+.new-year-text {
+  font-size: var(--font-size-sm);
+}
+
+.new-year-hint {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  opacity: 0.7;
+  margin-top: var(--space-1);
+  padding-right: var(--space-3);
+  font-weight: var(--font-weight-normal);
+  letter-spacing: 0.2px;
+}
+
+.new-year-dot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  transform: translate(50%, -50%);
+}
+
+/* New Year Blessing Page */
+.blessing-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--space-6);
+}
+
+.blessing-content {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.blessing-title {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-4);
+  letter-spacing: 1px;
+}
+
+.blessing-subtitle {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-8);
+  letter-spacing: 0.5px;
+}
+
+.blessing-text {
+  text-align: left;
+  line-height: 2;
+  letter-spacing: 0.5px;
+  margin-bottom: var(--space-8);
+  max-height: 60vh;
+  overflow-y: auto;
+  padding: var(--space-6);
+  background: linear-gradient(135deg, var(--color-bg-secondary) 0%, var(--color-bg-tertiary) 100%);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+}
+
+.blessing-text p {
+  margin-bottom: var(--space-5);
+  font-size: var(--font-size-base);
+  color: var(--color-text-primary);
+}
+
+.blessing-text p:last-child {
+  margin-bottom: 0;
+}
+
+.blessing-actions {
+  display: flex;
+  justify-content: center;
+}
+
+/* Paper theme enhancements for blessing page */
+.theme-paper .blessing-text {
+  background: linear-gradient(135deg, #fefcf7 0%, #f9f6f0 100%);
+  border-color: var(--color-border);
+  position: relative;
+}
+
+.theme-paper .blessing-text::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at 20% 80%, rgba(139, 90, 60, 0.02) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(139, 90, 60, 0.02) 0%, transparent 50%);
+  pointer-events: none;
+  border-radius: var(--radius-lg);
+}
+
+.theme-paper .blessing-title {
+  color: var(--color-primary);
+}
+
+.theme-paper .new-year-btn:hover {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-primary);
+}
+
+.theme-paper .new-year-symbol {
+  color: var(--color-primary);
+}
+
+.theme-paper .new-year-hint {
+  color: var(--color-text-secondary);
+}
+
+/* Responsive adjustments */
+@media (max-width: 520px) {
+  .hub-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .new-year-menu {
+    margin-top: var(--space-4);
+    align-items: center;
+  }
+  
+  .new-year-hint {
+    text-align: center;
+    padding-right: 0;
+  }
+  
+  .blessing-title {
+    font-size: var(--font-size-2xl);
+  }
+  
+  .blessing-subtitle {
+    font-size: var(--font-size-lg);
+  }
+  
+  .blessing-text {
+    padding: var(--space-4);
+    max-height: 50vh;
+  }
+}

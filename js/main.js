@@ -137,6 +137,17 @@ class App {
     return window.realizationMoment.show();
   }
 
+  // 显示新年祝福页面
+  showNewYearBlessing() {
+    if (!this.isInitialized) {
+      console.error('App not initialized');
+      return;
+    }
+    
+    this.currentView = 'new-year-blessing';
+    window.newYearBlessingView.show();
+  }
+
   // 处理浏览器后退按钮
   handleBackButton() {
     switch (this.currentView) {
@@ -144,6 +155,7 @@ class App {
       case 'card':
       case 'collection':
       case 'companionship-summary':
+      case 'new-year-blessing':
         this.showHub();
         break;
       default:

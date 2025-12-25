@@ -25,7 +25,17 @@
 
         <div id="hub-view" class="view hidden">
             <div class="container">
-                <h1 class="title">选择你的故事</h1>
+                <div class="hub-header">
+                    <h1 class="title">选择你的故事</h1>
+                    <div id="new-year-menu" class="new-year-menu hidden">
+                        <span id="new-year-dot" class="new-year-dot hidden"></span>
+                        <button id="new-year-btn" class="new-year-btn">
+                            <span class="new-year-symbol">✦</span>
+                            <span class="new-year-text">被你陪过的这一年</span>
+                        </button>
+                        <div id="new-year-hint" class="new-year-hint hidden">你已经陪完了所有人。</div>
+                    </div>
+                </div>
                 
                 <div id="recent-companions" class="recent-section hidden">
                     <h2 class="section-title">最近陪伴</h2>
@@ -106,6 +116,34 @@
                 </div>
             </div>
         </div>
+
+        <!-- New Year Blessing Page -->
+        <div id="new-year-blessing" class="view hidden">
+            <div class="container">
+                <div class="blessing-header">
+                    <button id="blessing-back-btn" class="back-btn">← 返回</button>
+                </div>
+                <div class="blessing-content">
+                    <h1 class="blessing-title">新年快乐</h1>
+                    <h2 class="blessing-subtitle">2026，愿你被世界温柔以待</h2>
+                    <div class="blessing-text">
+                        <p>这一年里，你陪伴了十三个人。</p>
+                        <p>你看见了红红的温暖，小梦的真诚，阿澈的从容。你陪着彬彬筹备，跟鸟哥规划路线，看桃汁慢慢放开自己。</p>
+                        <p>你见证了春夏的热烈，D姐的温柔，JoJo的关怀。你陪肥肥度过低谷，看懒猫重新选择，感受文婷的从容，还有白猫的纯真分享。</p>
+                        <p>每一段陪伴，都是一次靠近。每一个选择，都是一份理解。</p>
+                        <p>你没有试图改变谁，也没有要求什么回报。你只是在那里，安静地、真诚地，成为他们生活里的一部分。</p>
+                        <p>这样的你，很珍贵。</p>
+                        <p>新的一年，愿你继续被温柔对待。愿你遇到的每个人，都能像你陪伴他们一样，陪伴你。</p>
+                        <p>愿你的善意被看见，你的真诚被珍惜，你的陪伴被记住。</p>
+                        <p>愿你在给予温暖的同时，也能收获温暖。</p>
+                        <p>2026，愿你被世界温柔以待。</p>
+                    </div>
+                    <div class="blessing-actions">
+                        <button id="back-to-stories-btn" class="primary-btn">回到故事里</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="js/engine/storage.js"></script>
@@ -116,6 +154,7 @@
     <script src="js/ui/card-view.js"></script>
     <script src="js/ui/companionship-summary.js"></script>
     <script src="js/ui/realization-moment.js"></script>
+    <script src="js/ui/new-year-blessing.js"></script>
     <script src="js/content/content-loader.js"></script>
     <script src="js/main.js"></script>
 </body>
